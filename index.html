@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+   <head>
+      <title>{{ title }}</title>
+      <link rel="stylesheet" href="../static/style.css/">
+   </head>
+   <body>
+        <form action="{{handle_data}}" method="post">
+          <label for="tSec">timer in seconds:</label><br>
+          <input type="text" id="tSec" name="tSec" value=""><br>
+          <label for="tMin">timer in minutes:</label><br>
+          <input type="text" id="tMin" name="tMin" value=""><br>
+          <label for="tHour">timer in hours:</label><br>
+          <input type="text" id="tHour" name="tHour" value=""><br>
+          <button type="submit">Start Timer</button>
+      </form>
+   </body>
+</html>
